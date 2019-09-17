@@ -5,20 +5,20 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = [1954, 1955, 1956, 1957, 1958, 1959]
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
-color1 = '#fc9403'
-color2 = '#0307fc'
-color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
-sourceurl = 'https://www.baseball-reference.com'
+myheading = "Viewership"
+mytitle = "Number of viewers"
+x_values = ['1980s', '1990s', '2000s', '2010s']
+y1_values = [10,12,8,7]
+y2_values = [5,9,8,9]
+y3_values = [11,13,13,14]
+color1 = '#fc8403'
+color2 = '#0317fc'
+color3 = '#9013fc'
+name1 = 'MLB'
+name2 = 'NBA'
+name3 = 'NFL'
+tabtitle = 'Sports Viewership'
+sourceurl = 'https://www.wikipedia.org'
 githublink = 'https://github.com/austinlasseter/dash-linechart-example'
 
 ########### Set up the chart
