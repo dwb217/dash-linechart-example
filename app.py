@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 
 myheading = "Baseball Stats from the 1950s"
 mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
+x_values = [1954, 1955, 1956, 1957, 1958, 1959]
 y1_values = [345, 356, 345, 388, 328, 254]
 y2_values = [300, 306, 353, 365, 304, 285]
 y3_values = [280, 314, 328, 322, 326, 355]
